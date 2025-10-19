@@ -41,7 +41,7 @@ Before running the code, you need to download the HCLeK dataset and the base mod
 **A. HCLeK Dataset**
 1.  Download the dataset from Google Drive:
     * **[Download HCLeK Dataset (Google Drive)](https://drive.google.com/drive/folders/1ColYVlACpSRVzoHmYgByOtFtM5i4Y-fO?usp=sharing)**
-2.  Unzip and place the data files under the `./experiment/data/` directory.
+2.  Place the data files under the `./experiment/data/` directory.
 
 **B. Base Model**
 1.  Download the base model weights from either HuggingFace or ModelScope:
