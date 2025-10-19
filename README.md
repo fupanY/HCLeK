@@ -10,7 +10,7 @@ Prompt compression for Retrieval-Augmented Generation (RAG) often fails by treat
 
 To address this, we propose **HCLeK**, a Hierarchical Compression framework for Legal Knowledge. HCLeK uniquely leverages high-density core knowledge to guide the hierarchical compression of voluminous practical knowledge.
 The framework operates in three stages: (1) **Core-Knowledge Guided Reranking** to prioritize practical knowledge based on its semantic relevance to core legal principles; (2) **Priority-Decay Budget Allocation** to dynamically assign compression budgets, focusing on the most salient information; and (3) **Relevance-Diversity Aware Semantic Compression** for fine-grained sentence-level compression.
-Experimental results on the complex task of Legal Judgment Prediction (LJP) validate that HCLeK achieves state-of-the-art performance across various high compression ratios (0.5--0.05), demonstrating its effectiveness and robustness.
+Experimental results on the complex task of Legal Judgment Prediction (LJP) validate that HCLeK achieves state-of-the-art performance across various high compression ratios (0.5-0.05), demonstrating its effectiveness and robustness.
 
 ![HCLeK Framework Overview](./figures/overview_figure.png)
 
