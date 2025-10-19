@@ -2,9 +2,9 @@
 
 This is the official repository for the paper **"HCLeK: Hierarchical Compression of Legal Knowledge for Retrieval-Augmented Generation"**.
 
-We are excited that our paper has been accepted as a short paper to the **34th ACM International Conference on Information and Knowledge Management (CIKM 2025)**🎉.
+We are excited that our paper has been accepted as a short paper to the **34th ACM International Conference on Information and Knowledge Management (CIKM 2025)** 🎉.
 
-![HCLeK Framework Overview](./figures/overview_figure.pdf)
+![HCLeK Framework Overview](./figures/overview_figure.png)
 
 ## 💡 Abstract
 
@@ -43,10 +43,10 @@ pip install -r requirements.txt
 
 ### 3. Data Preparation
 
-1.  Download the dataset from Google Drive:
-    * **[Download HCLeK Dataset (Google Drive)](https://drive.google.com/drive/folders/1ColYVlACpSRVzoHmYgByOtFtM5i4Y-fO?usp=sharing)**
+Download the dataset from Google Drive:
+* **[Download HCLeK Dataset (Google Drive)](https://drive.google.com/drive/folders/1ColYVlACpSRVzoHmYgByOtFtM5i4Y-fO?usp=sharing)**
 
-2.  Place the data files under the `experiment/data/` directory.
+Place the data files under the `experiment/data/` directory.
 
 ### 4. Usage
 Refer to the `experiment/` directory for scripts and instructions on running experiments.
