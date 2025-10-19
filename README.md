@@ -2,7 +2,7 @@
 
 This is the official repository for the paper **"HCLeK: Hierarchical Compression of Legal Knowledge for Retrieval-Augmented Generation"**.
 
-We are excited that our paper has been accepted as a short paper to the **34th ACM International Conference on Information and Knowledge Management (CIKM 2025)** 🎉.
+We are excited that our paper has been accepted as a short paper to the **34th ACM International Conference on Information and Knowledge Management (CIKM 2025)**.🎉🎉🎉
 
 ![HCLeK Framework Overview](./figures/overview_figure.png)
 
