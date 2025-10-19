@@ -15,14 +15,7 @@ The framework operates in three stages: (1) **Core-Knowledge Guided Reranking** 
 Experimental results on the complex task of Legal Judgment Prediction (LJP) validate that HCLeK achieves state-of-the-art performance across various high compression ratios (0.5--0.05), demonstrating its effectiveness and robustness.
 
 ## 🚀 Getting Started
-### 1. Prerequisites
-
-Our framework (HCLeK) relies on a pre-trained large language model. Please download the base model weights first:
-
-* **HuggingFace**: [Qwen/Qwen2.5-7B-Instruct-1M](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M)
-* **ModelScope**: [Qwen/Qwen2.5-7B-Instruct-1M](https://www.modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct-1M)
-
-### 2. Installation
+### 1. Installation
 
 Clone this repository:
 ```bash
@@ -41,14 +34,23 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-### 3. Data Preparation
+### 2. Preparation
 
-Download the dataset from Google Drive:
-* **[Download HCLeK Dataset (Google Drive)](https://drive.google.com/drive/folders/1ColYVlACpSRVzoHmYgByOtFtM5i4Y-fO?usp=sharing)**
+Before running the code, you need to download the HCLeK dataset and the base model.
 
-Place the data files under the `experiment/data/` directory.
+**A. HCLeK Dataset**
+1.  Download the dataset from Google Drive:
+    * **[Download HCLeK Dataset (Google Drive)](https://drive.google.com/drive/folders/1ColYVlACpSRVzoHmYgByOtFtM5i4Y-fO?usp=sharing)**
+2.  Unzip and place the data files under the `./experiment/data/` directory.
 
-### 4. Usage
+**B. Base Model**
+1.  Download the base model weights from either HuggingFace or ModelScope:
+    * **HuggingFace**: [Qwen/Qwen2.5-7B-Instruct-1M](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-1M)
+    * **ModelScope**: [Qwen/Qwen2.5-7B-Instruct-1M](https://www.modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct-1M)
+2.  Save the model to a local directory (e.g., `./base_models/Qwen2.5-7B-Instruct-1M`).
+3.  Make sure to update the model path in `experiment/` scripts (e.g., in `experiment/pipeline_main.py`) to point to this directory.
+
+### 3. Usage
 Refer to the `experiment/` directory for scripts and instructions on running experiments.
 
 ## 📁 Repository Structure
