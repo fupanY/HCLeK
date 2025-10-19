@@ -222,7 +222,7 @@ class ExperimentConfig:
 
 def load_and_prepare_data(config: ExperimentConfig):
     """加载并预处理数据"""
-    qa_path = "experiment/data/result.json"
+    qa_path = "experiment/data/raw_qa.json"
     with open(qa_path, "r", encoding="utf-8") as f:
         qa_list = json.load(f)
     if config.sample_num > 0:
